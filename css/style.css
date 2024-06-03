@@ -48,9 +48,21 @@ a {
 	align-self: center;
 }
 
+.header-menu--logo:hover,
+.header-menu--logo:focus {
+	background-color: #B8FFEC;
+	border: 2px solid #B8FFEC;
+	border-radius: 50%;
+}
+
 .header-menu--sub-menu {
 	background-image: url(../img/burger.svg);
 	border: none;
+}
+
+.header-menu--sub-menu:hover,
+.header-menu--sub-menu:focus {
+	border: 2px solid #B8FFEC;
 }
 
 .header-menu--call {
@@ -58,9 +70,19 @@ a {
 	border: none;
 }
 
+.header-menu--call:hover,
+.header-menu--call:focus {
+	border: 2px solid #B8FFEC;
+}
+
 .header-menu--chat {
 	background-image: url(../img/chat.svg);
 	border: none;
+}
+
+.header-menu--chat:hover,
+.header-menu--chat:focus {
+	border: 2px solid #B8FFEC;
 }
 
 .header-menu--profile {
@@ -68,14 +90,29 @@ a {
 	border: none;
 }
 
+.header-menu--profile:hover,
+.header-menu--profile:focus {
+	border: 2px solid #B8FFEC;
+}
+
 .header-menu--settings {
 	background-image: url(../img/repair.svg);
 	border: none;
 }
 
+.header-menu--settings:hover,
+.header-menu--settings:focus {
+	border: 2px solid #B8FFEC;
+}
+
 .header-menu--search {
 	background-image: url(../img/checkstatus.svg);
 	border: none;
+}
+
+.header-menu--search:hover,
+.header-menu--search:focus {
+	border: 2px solid #B8FFEC;
 }
 
 .header-menu--diviber {
@@ -372,9 +409,24 @@ a {
 		margin-left: 10px;
 	}
 
+	.service__application:hover,
+	.service__application:focus {
+		border: 2px solid #B8FFEC;
+		border-radius: 6px;
+		background-color: #fff;
+	}
+
 	.service__status::after {
 		content: url(../img/checkstatus.svg);
 		margin-left: 10px;
+	}
+
+	.service__status:hover,
+	.service__status:focus {
+		border: 2px solid #B8FFEC;
+		border-radius: 6px;
+		background-color: #fff;
+
 	}
 
 	.header-menu-768 {

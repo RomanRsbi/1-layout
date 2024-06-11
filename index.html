@@ -12,64 +12,44 @@
 <body>
 	<header>
 		<div class="header-menu">
-			<button class="header-menu--sub-menu header-menu__buttom"></button>
-			<a href="" class="header-menu--logo">
-				<img src="img/Group.svg" alt="Логотип">
-			</a>
-			<div class="header-menu--diviber"></div>
-			<button class="header-menu--call header-menu__buttom"></button>
-			<button class="header-menu--chat header-menu__buttom"></button>
-			<button class="header-menu--profile header-menu__buttom"></button>
-			<button class="header-menu--settings header-menu__buttom"></button>
-			<button class="header-menu--search header-menu__buttom"></button>
-		</div>
-		<div class="header-menu-768">
-			<div class="header-menu-768__left">
-				<button class="header-menu--sub-menu header-menu__buttom"></button>
-				<div class="header-menu--diviber"></div>
-				<a href="" class="header-menu--logo">
-					<img src="img/Group.svg" alt="Логотип">
-				</a>
-			</div>
-			<div class="header-menu-768__right">
-				<button class="header-menu--call header-menu__buttom"></button>
-				<button class="header-menu--chat header-menu__buttom"></button>
-				<button class="header-menu--profile header-menu__buttom"></button>
-				<div class="header-menu--diviber"></div>
-				<button class="header-menu--settings header-menu__buttom"></button>
-				<button class="header-menu--search header-menu__buttom"></button>
-			</div>
+			<button class="header-menu__buttom"><img src="files/burger.svg" alt="Menu"></button>
+			<div class="header-menu__diviber mobile-resolution"></div>
+			<a href="" class="logo header-menu__buttom"><img src="files/Group.svg" alt="Logo"></a>
+			<div class="header-menu__diviber computer-resolution"></div>
+			<button class="header-menu__buttom mobile-resolution"><img src="files/call.svg" alt="call"></button>
+			<button class="header-menu__buttom mobile-resolution"><img src="files/chat.svg" alt="chat"></button>
+			<button class="header-menu__buttom mobile-resolution"><img src="files/profile.svg" alt="profile"></button>
+			<div class="header-menu__diviber mobile-resolution"></div>
+			<button class="header-menu__buttom header-menu__buttom--link"><span class="mobile-resolution computer-resolution header-menu__buttom--label">Оставить заявку</span><img src="files/repair.svg" alt="settings"></button>
+			<button class="header-menu__buttom header-menu__buttom--link"><span class="mobile-resolution computer-resolution header-menu__buttom--label">Статус ремонта</span><img src="files/checkstatus.svg" alt="search"></button>
 		</div>
 	</header>
-	<main class="main">
-		<div class="main__header">
-			<p class="main__title">Услуги и сервисы</p>
-			<div class="service service--position">
-				<a href="" class="service__application">Оставить заявку</a>
-				<a href="" class="service__status">Статус ремонта</a>
-			</div>
+	<main class="page-menu">
+		<div class="page-menu__header">
+			<h1 class="page-menu__title">Услуги и сервисы</h1>
 		</div>
-		<nav class="scrol-menu scrol-menu--position">
-			<a href="" class="scrol-menu__link">Ремонтируемые бренды</a>
-			<a href="" class="scrol-menu__link">Ремонтируемые устройства</a>
-			<a href="" class="scrol-menu__link">Цены на услуги</a>
-			<a href="" class="scrol-menu__link">Адреса сервисных центров</a>
-			<a href="" class="scrol-menu__link">Специальные цены</a>
-			<a href="" class="reviews">Отзывы</a>
+		<nav class="page-menu__nav page-menu--position">
+			<ul class="page-menu__mod">
+				<li class="page-menu__link"><a href="" class="page-menu__a">Ремонтируемые бренды</a></li>
+				<li class="page-menu__link"><a href="" class="page-menu__a">Ремонтируемые устройства</a></li>
+				<li class="page-menu__link"><a href="" class="page-menu__a">Дополнительные услуги</a></li>
+				<li class="page-menu__link"><a href="" class="page-menu__a">Адреса сервисных центров</a></li>
+				<li class="page-menu__link"><a href="" class="page-menu__a">Специальные цены</a></li>
+				<li class="page-menu__link"><a href="" class="page-menu__a">Отзывы</a></li>
+			</ul>
 		</nav>
-		<section class="blog blog--position">
-			<article>
-				<p class="blog__first">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы
-					можете отремонтировать свой
-					ноутбук Dell с официальной гарантией производителя.</p>
-				<p class="blog__second">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span
-						class="blog__second--second-part">, что подтверждает большое количество постоянных клиентов.
-						Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
-						очередь, советуют нас родным и близким.</span></p>
-				<p class="blog__next-button">Читать далее</p>
-			</article>
-			<img class="blog__logo-img" src="img/PictureLogo.svg" alt="Картинка логотипа">
-		</section>
+		<article class="blog">
+			<div class="blog__container">
+				<p class="blog__text">
+					Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой
+					ноутбук Dell с официальной гарантией производителя.</br>
+					<span class="mobile-resolution">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span class="computer-resolution"> что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам
+					обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span></span>
+				</p>
+				<button><span class="blog__next-button">Читать далее</span></button>
+			</div>
+			<img class="blog__logo-img" src="files/LogoPicture.png" alt="Картинка логотипа">
+		</article>
 	</main>
 </body>
 
